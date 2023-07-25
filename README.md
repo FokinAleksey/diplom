@@ -68,12 +68,22 @@ Cоздайте ВМ, разверните на ней Elasticsearch. Устан
 
 Сервера и инфраструктура в  [Yandex Cloud](https://cloud.yandex.com/) создана при помощи terraform и ansible. Операционной системой для виртуальных машин выбрана Ubuntu 22.04 LTS.
 
-При помощи terraform разворачиваем.
+При помощи terraform разворачиваем сервера.
 
- [Yandex Cloud]()
+Все конфигурационные файлы terraform ниже.
+
+ [terraform](terraform_final)
 
 В облаке развертываются виртуальные машины:
 
 web1, web2, prometheus, grafana, elasticsearch, kibana, bastion.
 
-Сайт
+ ![](image/1.jpg)
+ ![](image/2.jpg)
+
+ Для доступа на наши сервера используем сервер bstion
+
+ пробрасываем им ключи доступа.
+
+
+
