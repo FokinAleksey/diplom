@@ -41,7 +41,7 @@ web1, web2, prometheus, grafana, elasticsearch, kibana, bastion.
 
 Запускаем первый playbook: [nginx-playbook.yml](ansible_final/nginx-playbook.yml) который развернет на хостах web1 и web2 - web сервер nginx c сайтом.
 
-[Сайт](http://158.160.117.125/)
+[Ссылка на Сайт](http://158.160.117.125/)
 
  ![](image/5.jpg)
 
@@ -59,7 +59,7 @@ ___
 
  #### 3. Мониторинг
 
-[Grafana](http://158.160.116.41:3000)
+[Ссылка на Grafana](http://158.160.116.41:3000)
 
 ![](image/6.jpg)
 
@@ -70,6 +70,6 @@ ___
 1. На хосте elasticsearch - elasticsearch.
 2. На хосте kibana - kibana
 
-[Kibana](http://158.160.104.220:5601)
+[Ссылка на Kibana](http://158.160.104.220:5601)
 
   ![](image/7.jpg)
