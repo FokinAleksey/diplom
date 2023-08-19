@@ -41,7 +41,7 @@ web1, web2, prometheus, grafana, elasticsearch, kibana, bastion.
 
 Запускаем первый playbook: [nginx-playbook.yml](ansible_final/nginx-playbook.yml) который развернет на хостах web1 и web2 - web сервер nginx c сайтом.
 
-[Сайт](http://158.160.107.35/)
+[Сайт](http://158.160.107.35)
 
 Адрес балансировщика
 
