@@ -41,16 +41,13 @@ web1, web2, prometheus, grafana, elasticsearch, kibana, bastion.
 
 Запускаем первый playbook: [nginx-playbook.yml](ansible_final/nginx-playbook.yml) который развернет на хостах web1 и web2 - web сервер nginx c сайтом.
 
-<<<<<<< HEAD
 [Сайт](http://158.160.107.35/)
 
 Адрес балансировщика
 
 http://158.160.107.35
 
-=======
 [Ссылка на Сайт](http://158.160.117.125/)
->>>>>>> 7a519e02757394fe074db3776a6d4acc6a1ddb41
 
  ![](image/5.jpg)
 
@@ -68,17 +65,16 @@ ___
 
  #### 3. Мониторинг
 
-<<<<<<< HEAD
+
 [Grafana](http://158.160.113.135/:3000)
 
 http://158.160.113.135/:3000
 
-admin
+login: admin
 
-123456789
-=======
+password: 123456789
+
 [Ссылка на Grafana](http://158.160.116.41:3000)
->>>>>>> 7a519e02757394fe074db3776a6d4acc6a1ddb41
 
 ![](image/6.jpg)
 
@@ -90,17 +86,15 @@ admin
 2. На хосте kibana - kibana
 3. На хостах web1 и web2 включает модуль nginx и конфигурирует filebeat
 
-<<<<<<< HEAD
 [Kibana](http://158.160.36.161/:5601)
 
 http://158.160.36.161/:5601
 
-userl
+login: userl
 
-123456789
-=======
+password: 123456789
+
 [Ссылка на Kibana](http://158.160.104.220:5601)
->>>>>>> 7a519e02757394fe074db3776a6d4acc6a1ddb41
 
   ![](image/7.jpg)
 
