@@ -6,9 +6,9 @@ terraform {
   }
 }
 provider "yandex" {
-  token     = "********************"
-  cloud_id  = "********************"
-  folder_id = "********************"
+  service_account_key_file = "/home/user/fokin_key.json"
+  cloud_id  = "b1ga103cb2kmoi5ik6v8"
+  folder_id = "b1gq4erhtkq3sfhd4cpr"
   zone      = "ru-central1-a"
 }
 
