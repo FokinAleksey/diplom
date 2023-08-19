@@ -47,9 +47,7 @@ web1, web2, prometheus, grafana, elasticsearch, kibana, bastion.
 
 http://158.160.107.35
 
-[Ссылка на Сайт](http://158.160.117.125/)
-
- ![](image/5.jpg)
+![](image/5.jpg)
 
 ___
 
@@ -66,15 +64,13 @@ ___
  #### 3. Мониторинг
 
 
-[Grafana](http://158.160.113.135/:3000)
+[Ссылка на Grafana](http://158.160.113.135/:3000)
 
 http://158.160.113.135/:3000
 
 login: admin
 
 password: 123456789
-
-[Ссылка на Grafana](http://158.160.116.41:3000)
 
 ![](image/6.jpg)
 
@@ -86,7 +82,7 @@ password: 123456789
 2. На хосте kibana - kibana
 3. На хостах web1 и web2 включает модуль nginx и конфигурирует filebeat
 
-[Kibana](http://158.160.36.161/:5601)
+[Ссылка на Kibana](http://158.160.36.161/:5601)
 
 http://158.160.36.161/:5601
 
